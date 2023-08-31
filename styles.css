@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 33, 33);
+    color: gray;
+    padding: 2rem 4rem;
+}
+
+.contact a{
+    color: gray;
+    text-decoration: none;
+}
+
+.contact span{
+    margin-right: 30px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: rgb(247, 38, 34);
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: #D8E5F8;
+}
+#logo{
+    width: 5%;
+    border-radius: 50%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list .list{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.hero{
+    background: url(images/—Pngtree—full\ style\ 3d\ space\ birthday_914001.jpg) no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.cake-word{
+    max-width: 500px;
+    margin:0 auto;
+    position: relative;
+    top: 100px;
+    background-color: rgba(253, 226, 233, 0.5);
+    padding: 2rem;
+    color: #8b761e;
+}
+
+.cake-word h1{
+    color: #FD4540;
+    margin: 2rem 0;
+}
+
+.cake-word blockquote{
+    font-style: italic;
+    color: #007B14;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.about {
+    margin: 4rem 4rem;
+    text-align: center;
+}
+.about h1{
+    font-size: 40px;
+    color: #52A607;
+}
+
+.about-us{
+    display: flex;
+    background-color: rgba(253, 226, 233, 0.5);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5rem;
+    margin: 2rem;
+
+}
+
+.about-us .mission{
+    width: 100%;
+    text-align: center;
+}
+
+.mission img{
+    width:60%;
+    border-radius: 15px;
+}
+
+.about-1{
+    /* padding: 3rem; */
+    max-width: 50%;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.about-1 h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: #FD4540;
+}
+
+#shop{
+    background-color: rgba(253, 226, 233, 0.5);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5rem 3rem 3rem;
+    margin: 3rem 5rem;
+}
+
+.product{
+    display: flex;
+}
+
+.best-products{
+    text-align: center;
+}
+.best-products h1{
+    font-size: 40px;
+    color: #52A607;
+}
+.product img{
+    width: 95%;
+    height: 40vh;
+    object-fit: cover;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product h3{
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product p{
+    margin-top: 0.3rem;
+    color: #494646;
+    font-weight: 700;
+}
+.product1 .price{
+    font-weight: 700;
+    color: #FD4540;
+}
+
+.shop{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 50%;
+    color: white;
+    background-color: #FD4540;
+    border: none;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .fifth {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    margin-top: 2rem;  
+   }
+
+   .fifth:hover {
+    background-color: #FD4540;
+   }
+   .delete {
+    width: 90px;
+    height: 100%;
+    opacity: 1;
+    margin-top: 2rem;
+    transition: width 300ms, opacity 300ms;
+    font-weight: 700;
+   }
+   .icon {
+    padding: 0 10px;
+    width: 30px;
+    border-left: 1px solid rgb(226, 187, 187);
+    height: 100%;
+    transition: width 300ms,
+    border-left-color 300ms;
+   }
+   .fifth:hover .delete {
+    width: 0px;
+    opacity: 0;
+   }
+   .fifth:hover .icon {
+    width: 45%;
+    border-left-color: transparent;
+    font-weight: bold;
+   }
+
+
+
+.gallery{
+    background-color: rgba(253, 226, 233, 0.5);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5rem 3rem 3rem;
+    margin: 3rem 5rem;
+}
+
+.gallery-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.gallery-img img{
+    width: 95%;
+    height: 40vh;
+    object-fit: cover;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.view h1{
+    font-size: 40px;
+    color: #52A607;
+    text-align: center;
+}
+
+.testimonial{
+    background: url(images/backcrop.jpg) no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 90%;
+    margin-left: 5rem;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+}
+
+.testi{
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.5);
+    padding: 2.5rem 4rem;
+    font-weight: 700;
+    border-radius: 15px;
+    color: antiquewhite;
+}
+
+.testi h1{
+    font-size: 45px;
+    margin-bottom: 2rem;
+    color: #BD1C2C;
+}
+
+.testi p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.testi blockquote{
+    margin-top: 1rem;
+}
+
+.blogs{
+    background-color: rgba(253, 226, 233, 0.5);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5rem 3rem 3rem;
+    margin: 3rem 5rem;
+}
+
+.blog-img{
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.blog-img img{
+    width: 95%;
+    height: 40vh;
+    object-fit: cover;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+}
+
+/* .news h1{
+    font-size: 40px;
+    color: #52A607;
+    text-align: center;
+}
+
+.first img{
+    width:100%;
+    height: 97%;
+}
+.second img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.first-word{
+    position: absolute;
+    top: 330rem;
+    color: white;
+    padding:0 2rem;
+    font-size: 30px;
+    font-weight: 700;
+} */
+
+.latest-news{
+    /* margin: 72px; */
+    background-color: #F0FDF4;
+    padding: 50px 30px 100px;
+}
+
+.latest-news .late-h2{
+    text-align: center;
+    /* margin-bottom: 30px; */
+    color: #3B367B;
+    font-size: 30px;
+    font-weight: 700;
+}
+.latest-news .eco-p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.news .news-images{
+    width: 400px;
+    border-radius: 10px;
+}
+.information-word{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin:30px 72px;
+}
+.news .info{
+    width: 400px;
+    font-weight: 700;
+    height: 27.7%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    object-fit: fill;
+    color: #fff;
+    padding: 20px;
+    padding-top: 130px;
+    line-height: 30px;
+}
+
+.news .info p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.news .info p .small{
+    /* margin: 25px 0; */
+    font-size: 15px;
+}
+.news .info button{
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(14, 94, 14);
+    border-radius: 7px;
+    font-weight: 700;
+}
